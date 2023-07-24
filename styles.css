@@ -4,12 +4,11 @@ body{
 	font-family:arial;
 	background-color: #f5f5f5;
 }
-nav
+header
 {
 	background-color: #011e29;
 	color:white;
 	padding:1px;
-	
 }
 .container{
 	display:grid;
@@ -21,18 +20,18 @@ nav
 }
 .div1{
 	border-radius:10px;
-	background-color:aqua;
+	background-color:white;
 	padding:10px;
 	
 }
 .div2{
 	border-radius:10px;
-	background-color:red;
+	background-color:white;
 	padding:10px;
 }
 .div3{
 	border-radius:10px;
-	background-color:blue;
+	background-color:white;
 	padding:10px;
 	display:flex;
 	flex-direction:column;
@@ -42,6 +41,9 @@ img{
 	height:100px;
 	width:200px;
 	margin:8px;
+}
+h1,h2,h3{
+	text-align:center;
 }
 /* p{
 	justify-content:center;

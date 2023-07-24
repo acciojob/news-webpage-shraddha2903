@@ -9,6 +9,7 @@ header
 	background-color: #011e29;
 	color:white;
 	padding:1px;
+	text-align:center;
 }
 .container{
 	display:grid;
@@ -18,20 +19,22 @@ header
 .container>div{
 	margin:2px;
 }
-.div1{
+.latest-news-section{
 	border-radius:10px;
 	background-color:white;
 	padding:10px;
+	width:200px;
 	
 }
-.div2{
+.main-article{
 	border-radius:10px;
 	background-color:white;
 	padding:10px;
 }
-.div3{
+.pictorial-news-section{
 	border-radius:10px;
 	background-color:white;
+	text-align:center;
 	padding:10px;
 	display:flex;
 	flex-direction:column;
